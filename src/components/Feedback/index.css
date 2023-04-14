@@ -1,0 +1,43 @@
+/* Write your CSS code here. */
+
+.bg-main {
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.tile {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.tile-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emj {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.emj-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
